@@ -211,6 +211,7 @@ auth SHA512
 cipher AES-256-CBC
 setenv opt block-outside-dns
 key-direction 1
+tls-version-min 1.0
 verb 3" > /etc/openvpn/client-common.txt
 # Generates the custom client.ovpn
 newclient "$CLIENT"
